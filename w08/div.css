@@ -27,6 +27,8 @@ body {
 
 #headinglink {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 #colorlink {
@@ -130,4 +132,3 @@ body {
     background-color: rgb(66, 66, 66);
     text-align: center;
 }
-
