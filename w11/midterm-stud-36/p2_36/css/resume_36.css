@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#heading {
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#table {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 10rem 20rem 10rem;
+  grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+  grid-template-areas:
+    'name namedata photo'
+    'sex sexdata photo'
+    'birth birthdata photo'
+    'phone phonedata photo'
+    'grade gradedata photo'
+    'address addressdata addressdata'
+    'email emaildata emaildata'
+    'habit habitdata habitdata'
+    'honor honordata1 honordata1'
+    'honor honordata2 honordata2'
+    'honor honordata3 honordata3'
+    'skill skilldata1 skilldata1'
+    'skill skilldata2 skilldata2'
+    'skill skilldata3 skilldata3';
+
+  border: 1px solid black;
+}
+
+#name {
+  grid-area: name;
+}
+#sex {
+  grid-area: sex;
+}
+#birth {
+  grid-area: birth;
+}
+#phone {
+  grid-area: phone;
+}
+#grade {
+  grid-area: grade;
+}
+#address {
+  grid-area: address;
+}
+#email {
+  grid-area: email;
+}
+#habit {
+  grid-area: habit;
+}
+#honor {
+  grid-area: honor;
+}
+#skill {
+  grid-area: skill;
+}
+
+#namedata {
+  grid-area: namedata;
+}
+#sexdata {
+  grid-area: sexdata;
+}
+#birthdata {
+  grid-area: birthdata;
+}
+#phonedata {
+  grid-area: phonedata;
+}
+#gradedata {
+  grid-area: gradedata;
+}
+#addressdata {
+  grid-area: addressdata;
+}
+#emaildata {
+  grid-area: emaildata;
+}
+#habitdata {
+  grid-area: habitdata;
+}
+#honordata1 {
+  grid-area: honordata1;
+}
+#honordata2 {
+  grid-area: honordata2;
+}
+#honordata3 {
+  grid-area: honordata3;
+}
+#skilldata1 {
+  grid-area: skilldata1;
+}
+#skilldata2 {
+  grid-area: skilldata2;
+}
+#skilldata3 {
+  grid-area: skilldata3;
+}
+
+#photo {
+  grid-area: photo;
+}
